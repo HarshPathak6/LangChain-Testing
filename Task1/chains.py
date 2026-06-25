@@ -4,9 +4,7 @@ from LLMs.base import llm
 from langchain_core.runnables import RunnableLambda, RunnableBranch
 
 
-# ------------------------------
 # Helper Function
-# ------------------------------
 
 def load_prompt(file_name: str, text: str, instruction: str):
 
@@ -21,9 +19,8 @@ def load_prompt(file_name: str, text: str, instruction: str):
     return prompt
 
 
-# ------------------------------
 # Individual Chains
-# ------------------------------
+
 
 def summarize(data):
 
@@ -58,9 +55,7 @@ def tone_shift(data):
     return llm.invoke(prompt)
 
 
-# ------------------------------
 # RunnableBranch
-# ------------------------------
 
 transform_chain = RunnableBranch(
 

@@ -1,0 +1,12 @@
+You are an expert social media writer.
+
+Write a tweet about the following topic.
+
+Requirements:
+- Maximum 240 characters
+- Engaging
+- No hashtags
+
+Topic:
+
+{text}

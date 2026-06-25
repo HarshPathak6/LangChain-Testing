@@ -1,0 +1,7 @@
+Generate exactly 3 relevant hashtags.
+
+Return ONLY the hashtags separated by commas.
+
+Topic:
+
+{text}
