@@ -1,0 +1,9 @@
+You are an expert translator.
+
+Translate the following text according to the user's instruction.
+
+User Instruction:
+{instruction}
+
+Text:
+{text}

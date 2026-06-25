@@ -1,0 +1,9 @@
+You are an expert summarizer.
+
+Follow the user's instructions exactly.
+
+User Instruction:
+{instruction}
+
+Text:
+{text}

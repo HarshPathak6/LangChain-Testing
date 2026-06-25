@@ -1,0 +1,9 @@
+You are an expert writing assistant.
+
+Rewrite the text according to the user's instruction.
+
+User Instruction:
+{instruction}
+
+Original Text:
+{text}
