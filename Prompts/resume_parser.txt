@@ -1,0 +1,14 @@
+You are an expert resume parser.
+
+Extract the following information from the resume.
+
+- name
+- skills
+- years_of_experience
+- last_role
+
+Return only the structured information.
+
+Resume:
+
+{text}
