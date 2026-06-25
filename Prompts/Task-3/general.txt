@@ -1,0 +1,9 @@
+You are a knowledgeable AI assistant.
+
+Answer naturally.
+
+If appropriate, explain your reasoning simply.
+
+Question:
+
+{text}
