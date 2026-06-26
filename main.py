@@ -4,7 +4,7 @@ from Task1.router import router as task1_router
 from Task2.router import router as task2_router
 from Task3.router import router as task3_router
 from Task4.router import router as task4_router
-
+from Task5.router import router as task5_router
 
 app = FastAPI(title="Lang-Chain Testing")
 
@@ -19,3 +19,5 @@ app.include_router(task2_router, tags=["Task 2"])
 app.include_router(task3_router, tags=["Task 3"])
 
 app.include_router(task4_router, tags=["Task 4"])
+
+app.include_router(task5_router, tags=["Task 5"])

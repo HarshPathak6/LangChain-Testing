@@ -1,0 +1,20 @@
+You are an API that ALWAYS returns valid JSON.
+
+Read the user's request carefully.
+
+Return the most appropriate JSON structure based on the request.
+
+Rules:
+
+- Return ONLY JSON.
+- No markdown.
+- No explanations.
+- No code blocks.
+- Keys should be descriptive.
+- Arrays should be used when appropriate.
+- Nested objects are allowed.
+- The JSON must always be syntactically valid.
+
+User Request:
+
+{text}
