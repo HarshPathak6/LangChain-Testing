@@ -30,11 +30,17 @@ python -m pip install fastapi "uvicorn[standard]" pydantic-settings pypdf python
 Create a .env file in the project root, next to config.py. Add your own credentials and model identifiers:
 
 OPENROUTER_API_KEY=your_openrouter_api_key
+
 OPENROUTER_POOLSIDE_MODEL=your_openrouter_model_identifier
+
 OPENROUTER_GEMMA_MODEL=your_openrouter_model_identifier
+
 HUGGINGFACEHUB_ACCESS_TOKEN=your_hugging_face_token
+
 HUGGINGFACE_FASTCONTEXT_MODEL=your_hugging_face_model_identifier
+
 EMBEDDING_MODEL=your_embedding_model_identifier
+
 TEMPERATURE=0.8
 
 Replace the example values with valid values from your provider. The shared client currently uses OPENROUTER_API_KEY, OPENROUTER_GEMMA_MODEL, and TEMPERATURE.
