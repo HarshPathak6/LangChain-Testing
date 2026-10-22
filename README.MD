@@ -7,37 +7,7 @@ Features
 - Task 4 — Social content generation: Generate a tweet, LinkedIn caption, and hashtags for a topic in parallel.
 - Task 5 — Safe JSON generation: Ask the model for JSON and attempt to repair the response if it is invalid.
 - Health endpoint: Check whether the API is running.
-Project Structure
-LangChain-Testing-main/
-├── LLMs/
-│   ├── __init__.py
-│   └── base.py
-├── Prompts/
-│   ├── summary.txt
-│   ├── translate.txt
-│   ├── tone.txt
-│   ├── resume_parser.txt
-│   ├── Task-3/
-│   │   ├── coding.txt
-│   │   ├── math.txt
-│   │   └── general.txt
-│   ├── Task-4/
-│   │   ├── tweet.txt
-│   │   ├── linkedin.txt
-│   │   └── hashtags.txt
-│   └── Task-5/
-│       └── safe_json.txt
-├── Task1/
-├── Task2/
-├── Task3/
-├── Task4/
-├── Task5/
-├── util/
-│   └── pdf.py
-├── config.py
-├── main.py
-├── requirements.txt
-└── README.md
+
 Requirements
 - Python 3.10 or newer
 - An OpenRouter API key and a model identifier available to your account
@@ -58,6 +28,7 @@ python -m pip install -r requirements.txt
 python -m pip install fastapi "uvicorn[standard]" pydantic-settings pypdf python-multipart
 4. Configure environment variables
 Create a .env file in the project root, next to config.py. Add your own credentials and model identifiers:
+
 OPENROUTER_API_KEY=your_openrouter_api_key
 OPENROUTER_POOLSIDE_MODEL=your_openrouter_model_identifier
 OPENROUTER_GEMMA_MODEL=your_openrouter_model_identifier
@@ -65,6 +36,7 @@ HUGGINGFACEHUB_ACCESS_TOKEN=your_hugging_face_token
 HUGGINGFACE_FASTCONTEXT_MODEL=your_hugging_face_model_identifier
 EMBEDDING_MODEL=your_embedding_model_identifier
 TEMPERATURE=0.8
+
 Replace the example values with valid values from your provider. The shared client currently uses OPENROUTER_API_KEY, OPENROUTER_GEMMA_MODEL, and TEMPERATURE.
 Security: Never commit your .env file or publish API keys. If a real key has been exposed, revoke it with the provider and generate a replacement. Keep .env out of version control.
 
