@@ -47,6 +47,7 @@ LangChain-Testing-main/
 ├── main.py                     # FastAPI application and router registration
 ├── requirements.txt
 └── README.md
+
 Requirements
 - Python 3.10 or newer is recommended.
 - An OpenRouter API key and a model identifier available to your
@@ -58,6 +59,7 @@ The application currently creates its shared chat model in
 LLMs/base.py using the OpenRouter-compatible API. The Hugging Face
 settings are declared in config.py, but are not used by that shared
 client in the code reviewed here.
+
 Setup
 1. Open the project folder
 Open the extracted LangChain-Testing-main folder in VS Code, then open
